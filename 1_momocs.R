@@ -1,12 +1,12 @@
-#install.packages("Momocs",dependencies = T)
+install.packages("Momocs",dependencies = T)
 #remove.packages("Momocs")
 #library(devtools)
 #devtools::install_github("MomX/Momocs",dependencies = T)
 
-#if (!requireNamespace("BiocManager", quietly = TRUE))
-#install.packages("BiocManager")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
 
-#BiocManager::install("EBImage", force = T)
+BiocManager::install("EBImage", force = T)
 
 
 library(EBImage)
